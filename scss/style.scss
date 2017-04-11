@@ -1,0 +1,51 @@
+// Author: Irene J. Penuelas
+// Date: 3.19.17
+//
+// File Name: style.scss
+// Supporting Files:
+
+@import "vendors/_bootstrap.scss";
+
+// Vars
+$primary-color: #3b5a76;
+$background-color: #ededed;
+$text-color: #363636;
+$font: 16px;
+
+body {
+  padding-bottom: 0px;
+  font-family: 'Arvo', serif;
+  color: $text-color;
+  background: $background-color;
+  font-size: $font;
+}
+
+.profile-image {
+  max-height: 33%;
+  max-width: 33%;
+}
+
+.line {
+  max-width: 100%;
+}
+
+.contactIcon {
+  max-width: 10%;
+  max-height: 10%;
+  padding: 2px;
+}
+
+ul.contact li a {
+  color: red;
+}
+
+.work-list img {
+  max-width: 100%;
+  max-height: 33%;
+}
+
+footer {
+	background: #333;
+	color: #fff;
+	padding: 30px 0 20px 0;
+}
